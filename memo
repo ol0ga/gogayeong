@@ -1,0 +1,36 @@
+_ - 헷갈렸는지
+괄호 (종류,다 닫혀있는지)
+철자오류 (ex) form form
+; !!!!!
+
+intervals 매번 일어나야하는 무언가 (예) 2초마다
+timeout 몇초 뒤에 1번 실행
+
+
+setInterval(sayHello, 1000);
+sayHello() 라는 펑션을 1초마다 반복한다는 의미.
+단 바로 실행되지 않고 1초 후 첫 시작이 되고 계속 1초마다 반복된다.
+
+setTimeout(sayHello, 1000);
+1초 기다렸다가 한번만 실행
+
+Math.random() 
+0~1
+
+so Math.random() * 10
+1 ~ 10 (float 소수) ===> (integer 정수)
+
+방법 1
+Math.round(float)
+==> integer (반올림)
+방법 2
+Math.ceil(float)
+==> integer (올림)
+방법3
+Math.floor(float)
+==> integer (내림)
+
+Math.round(Math.random() * 10)
+
+boolean (참거짓)
+filter (선택옵션)
